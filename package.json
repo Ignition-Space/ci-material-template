@@ -1,0 +1,40 @@
+{
+  "name": "@huos/remote-image-material",
+  "version": "1.0.0",
+  "description": "",
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "wangfh",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "@chakra-ui/react": "^2.8.2",
+    "@craftjs/core": "^0.2.4",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@huos/core": "^1.0.0",
+    "@huos/icons": "^1.0.0",
+    "@huos/setter": "^1.0.0",
+    "framer-motion": "^10.18.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
+  }
+}
